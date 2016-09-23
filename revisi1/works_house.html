@@ -1,0 +1,562 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
+    <title>Robin Art Studio - Works Shop</title>
+	<!-- core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/owl.carousel.css" rel="stylesheet">
+    <link href="css/owl.transitions.css" rel="stylesheet">
+    <link href="css/prettyPhoto.css" rel="stylesheet">
+    <link href="css/main-worksHouse.css" rel="stylesheet">
+    <link href="css/responsive.css" rel="stylesheet">
+	<link href="css/menuslide.css" rel="stylesheet">
+    <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
+    <![endif]-->       
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+	
+
+	<link href="assets/css/tidy.css" rel="stylesheet" />
+	<style>
+		.nav {
+			margin-bottom: 30px;
+		}
+		.intrinsic {
+			position: relative;
+			padding-bottom: 75%;
+			height: 0;
+		}
+
+		.intrinsic-2 {
+			padding-bottom: 56.25%;
+		}
+		.intrinsic-3 {
+			padding-bottom: 133.333%;
+		}
+		.intrinsic img,
+		.intrinsic iframe,
+		.intrinsic .lazyload {
+			position:absolute;
+			width: 100%;
+			height: 100%;
+			left: 0;
+			top: 0;
+			border: none;
+			overflow: hidden;
+		}
+		.thumbnail-small {
+			width: 32%;
+			display: inline-block;
+			margin-bottom: 35px;
+		}
+		pre {
+			-moz-tab-size: 2;
+			tab-size: 2;
+		}
+
+		.scroll-view {
+			overflow: auto;
+			overflow-x: auto;
+			overflow-y: hidden;
+            -webkit-overflow-scrolling: touch;
+			position: relative;
+			width: 100%;
+			padding: 2px 2px 10px;
+		}
+		.scroll-doc {
+			display: table;
+			position: relative;
+			text-align: left;
+		}
+		.scroll-item {
+			display: table-cell;
+			vertical-align: middle;
+		}
+		.scroll-item .thumbnail {
+			margin: 5px 10px;
+			width: 230px;
+		}
+		.scroll-item .thumbnail img {
+			width: 100%;
+			height: auto;
+		}
+
+		.no-src.lazyload,
+		.no-src.lazyloading {
+			opacity: 0;
+		}
+
+		.no-src.lazyloaded {
+			opacity: 1;
+			transition: opacity 300ms;
+		}
+
+		[data-expand].lazyload {
+			opacity: 0;
+			transform: scale(0.8);
+		}
+
+		[data-expand].lazyloaded {
+			opacity: 1;
+			transition: all 700ms;
+			transform: scale(1);
+		}
+
+		.effect-row-middle  > [data-expand]:nth-child(2),
+		.effect-row-reverse  > [data-expand]:nth-child(3),
+		.effect-row > [data-expand]:nth-child(1) {
+			transition-delay: 100ms;
+		}
+
+		.effect-row-middle  > [data-expand]:nth-child(1),
+		.effect-row-middle  > [data-expand]:nth-child(3),
+		.effect-row-reverse  > [data-expand]:nth-child(2),
+		.effect-row > [data-expand]:nth-child(2) {
+			transition-delay: 400ms;
+		}
+
+		.effect-row-reverse  > [data-expand]:nth-child(1),
+		.effect-row > [data-expand]:nth-child(3) {
+			transition-delay: 700ms;
+		}
+	</style>
+
+	
+</head><!--/head-->
+
+<body id="home" class="homepage">
+
+    <header id="header">
+        <nav id="main-menu" class="navbar navbar-default navbar-fixed-top" role="banner">         	     	
+            <div class="container">
+                <div class="navbar-header navbar-right">
+                    <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse2">
+                        <!--<span class="sr-only">Toggle navigation</span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        -->						
+						<img src="images/menu.png" class="img-responsive" alt="menu">
+                    </button>
+                    <a class="navbar-brand" href="index.html"><img src="images/logo2.png" alt="logo"></a>
+                </div>
+				<div id="page-content-wrapper">
+						<div class="content-header">
+							<h1 id="home">
+								<a id="menu-toggle" href="#"><img src="images/menu.png" alt="menu"></a>
+							</h1>
+						</div>
+				</div>
+				
+                <div id="topframeX" style="position: absolute; z-index: 1000;"><img class="img-responsive" src="images/worksHouse/img_header.png"></div>            
+            </div><!--/.container--> 
+			<div class="container">
+				<div class="row" id="divTopFrame">
+						<div id="topframe" style="position: absolute; z-index: 1000;"><img class="img-responsive" src="images/worksHouse/img_header.png"></div>
+				</div>
+			</div>
+            <div class="header-shadow"></div>             
+        </nav><!--/nav-->
+    </header><!--/header-->
+    
+	<section id="menu-side">
+		<div id="wrapper" class="active">
+					<div id="sidebar-wrapper">
+						<nav id="spy">
+							<ul class="sidebar-nav nav">
+									<a id="menu-toggle2" href="#"><img src="images/menu_nav.png" style="padding-left:170px;padding-bottom:10px;padding-top:20px;"></a>
+								<li>
+									<a href="#" ><img src="images/top_menu.png">
+									</a>
+								</li>
+								<li>
+									<a href="#"><img src="images/works_menu.png">
+									</a>
+								</li>
+								<li>
+									<a href="#"><img src="images/concept_menu.png">									
+									</a>
+								</li>
+								<li>
+									<a href="#"><img src="images/clientvoice_menu.png">	
+									</a>
+								</li>
+								<li>
+									<a href="#"><img src="images/workflow_menu.png">	
+									</a>
+								</li>
+								<li>
+									<a href="#"><img src="images/form_menu.png">	
+									</a>
+								</li>
+								<li>
+									<a href="#"><img src="images/access_menu.png">	
+									</a>
+								</li>
+								<li>
+									<a href="#"><img src="images/blog_menu.png">	
+									</a>
+								</li>
+							</ul>
+						</nav>
+					</div>					
+				</div>
+	</section>
+	
+    <section id="portfolio">
+        <div class="container">
+            <div class="section-header" style="background: url(images/worksHouse/ulir_backgrount.png) no-repeat; padding-top:20px;height:150px;margin-top:50px; margin-bottom:30px;">
+				<div class="wow fadeInLeft" data-wow-duration="400ms" data-wow-delay="200ms" style="margin-top: 20px; margin-left: 30px; position: absolute; z-index: 100;">
+					<img src="images/worksHouse/button_work.png">
+					
+				</div>
+               <!-- <h2 class="section-title text-center wow fadeInDown">About Us</h2>
+                <p class="text-center wow fadeInDown">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut <br> et dolore magna aliqua. Ut enim ad minim veniam</p>-->
+                <h1 class="text-center wow fadeInDown" data-wow-duration="300ms" data-wow-delay="300ms"><img src="images/worksHouse/house.png" alt=""><p>ロビンアートスタジオの「店舗」</p></h1>
+            </div>
+			
+			<div class="row" style="margin-left:0px; margin-right:0px; padding: 0px 30px">
+                <div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="0ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater -1</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				<div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="50ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater -2</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				<div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="100ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater -3</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				<div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="150ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater -4</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				
+				<div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="200ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater -5</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				<div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="250ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater -6</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				<div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="300ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater -7</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				<div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="350ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater -8</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				
+				<div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="400ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater -9</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				<div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="450ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater -10</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				<div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="500ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater -11</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				<div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="600ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater -12</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				
+			</div>
+			
+        </div>
+    </section><!--/#portfolio1-->
+	
+	<section id="portfolio2" style="display:none;">
+        <div class="container">            
+			<div class="row" style="margin-left:0px; margin-right:0px; padding: 0px 30px">
+                <div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="400ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater 2</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				<div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="450ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater 2</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				<div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="500ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater 2</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				<div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="600ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater 2</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				
+			</div>			
+			
+        </div>
+    </section><!--/#profile2-->
+	<section id="portfolio3" style="display:none;">
+        <div class="container">            
+			<div class="row" style="margin-left:0px; margin-right:0px; padding: 0px 30px">
+                <div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="400ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater 3</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				<div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="450ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater 3</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				<div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="500ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater 3</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				<div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="600ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater 3</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				
+			</div>			
+			
+        </div>
+    </section><!--/#profile3-->
+	<section id="portfolio4" style="display:none;">
+        <div class="container">            
+			<div class="row" style="margin-left:0px; margin-right:0px; padding: 0px 30px">
+                <div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="400ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater 2</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				<div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="450ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater 2</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				<div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="500ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater 2</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				<div class="col-md-3 wow fadeInUp" data-wow-duration="600ms" data-wow-delay="600ms" style="border: solid 1px rgb(213,206, 188); padding: 10px; margin-right:10px; margin-left:10px; margin-bottom:20px; max-width:212px; background-color:#f5f2f2">
+                    <div style="width: 190px;">
+                        <div style="margin-left:auto; margin-right:auto">
+                            <img src="images/worksHouse/work_img1.jpg" alt="" style="border: solid 1px rgb(213,206, 188);"> 
+							<div class="text-justify" style="line-height:16px; margin-top: 8px; font-size:11px;padding-bottom: 20px;">
+								<p>Backed by some of the biggest names in the industry, Firefox OS is an open platform that fosters greater 2</p>
+							</div>
+						</div>             
+                    </div>
+                </div>
+				
+			</div>			
+			
+        </div>
+    </section><!--/#profile4-->
+	
+	<section id="btnload">
+		<div class="container" style="position:relative; background-color: #f2e8d9;"> 
+			<div class="col-sm-2" style="float: none; margin-left:auto; margin-right:auto; margin-top: 20px;">                
+                    <button id="downClick" style="border:none; background:none;"><img class="fadeIn" src="images/worksHouse/click_next.png" alt="" data-wow-duration="300ms" data-wow-delay="300ms"></button>
+            </div>
+			<div class="row text-center" style="margin-bottom: 100px">                
+                    <img class="img-responsive wow fadeIn" src="images/worksHouse/footer_click_next.png" alt="" data-wow-duration="300ms" data-wow-delay="300ms">
+            </div>
+		</div>
+	</section> <!--/#btnload-->
+
+	
+    
+    <footer id="footer">
+		<div class="footer-shadow"></div>
+        <div class="container">  
+        	<div><img class="img-responsive" src="images/worksHouse/footer.png" alt=""></div>
+            <div class="row text-center">
+            	
+                    <ul>
+                        <li><a href="#"><img class="img-responsive" src="images/top.png" alt=""></a></li>
+                        <li><a href="#"><img class="img-responsive" src="images/works_footer.png" alt=""></a></li>
+                        <li><a href="#"><img class="img-responsive" src="images/concept.png" alt=""></a></li>
+                        <li><a href="#"><img class="img-responsive" src="images/clientvoice.png" alt=""></a></li> 
+                        <li><a href="#"><img class="img-responsive" src="images/workflow.png" alt=""></a></li>
+                        <li><a href="#"><img class="img-responsive" src="images/form.png" alt=""></a></li>
+                        <li><a href="#"><img class="img-responsive" src="images/access.png" alt=""></a></li>
+                        <li><a href="#"><img class="img-responsive" src="images/blog.png" alt=""></a></li>
+                    </ul>
+               
+            	
+            </div>      	
+            <div class="row">
+            	<p class="text-center"><img src="images/footer_logo.png" alt=""></p>
+                <p class="text-center"><img src="images/footer_text.png" alt=""></p>               
+            </div>
+            <div class="row">
+            	<p class="text-center small">Copyright &copy; Robin Art Studio. All Rights Reserved</p>
+            </div>
+        </div>
+    </footer><!--/#footer-->
+
+    <script src="js/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+   <!-- <script src="http://maps.google.com/maps/api/js?sensor=true"></script>-->
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/mousescroll.js"></script>
+    <script src="js/smoothscroll.js"></script>
+    <script src="js/jquery.prettyPhoto.js"></script>
+    <script src="js/jquery.isotope.min.js"></script>
+    <script src="js/jquery.inview.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/main.js"></script>
+	<script src="js/menuslide.js"></script>
+	<!--<script src="js/jquery-2.1.1.min.js"></script>
+	<script src="js/lazysizes.min.js"></script>
+	<script src="js/ls.respimg.min.js"></script>
+	<script src="js/ls.unveilhooks.min.js"></script>-->
+</body>
+</html>
